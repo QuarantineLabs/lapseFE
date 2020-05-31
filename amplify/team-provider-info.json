@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-lapsefe-dev-193026-authRole",
+            "UnauthRoleArn": "arn:aws:iam::664805203990:role/amplify-lapsefe-dev-193026-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::664805203990:role/amplify-lapsefe-dev-193026-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-lapsefe-dev-193026-deployment",
+            "UnauthRoleName": "amplify-lapsefe-dev-193026-unauthRole",
+            "StackName": "amplify-lapsefe-dev-193026",
+            "StackId": "arn:aws:cloudformation:us-west-2:664805203990:stack/amplify-lapsefe-dev-193026/b095da50-a2e6-11ea-8a88-02bc161bfc0c",
+            "AmplifyAppId": "d2adbpxd62viwk"
+        },
+        "categories": {
+            "function": {
+                "albums": {}
+            }
+        }
+    }
+}

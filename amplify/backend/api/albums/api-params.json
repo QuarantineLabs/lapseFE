@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/albums",
+            "lambdaFunction": "albums",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "albums",
+    "apiName": "albums",
+    "functionArns": [
+        {
+            "lambdaFunction": "albums"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-lapsefe-dev-193026-authRole",
+        "unAuthRoleName": "amplify-lapsefe-dev-193026-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "albums",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
